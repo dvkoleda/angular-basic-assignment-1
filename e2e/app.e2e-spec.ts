@@ -1,10 +1,10 @@
-import { NewCliPage } from './app.po';
+import { Ng4TestPage } from './app.po';
 
-describe('new-cli App', () => {
-  let page: NewCliPage;
+describe('ng4-test App', function() {
+  let page: Ng4TestPage;
 
   beforeEach(() => {
-    page = new NewCliPage();
+    page = new Ng4TestPage();
   });
 
   it('should display message saying app works', () => {
